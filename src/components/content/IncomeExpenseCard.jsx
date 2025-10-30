@@ -41,7 +41,7 @@ const IncomeExpenseCard = () => {
 
 const Card = (props) => {
   return (
-    <div className="flex-1 flex flex-col px-4 py-10 border-2 border-gray-200 rounded-lg">
+    <div className="flex-1 flex flex-col px-4 py-10 border-2 border-gray-200 shadow-md rounded-lg">
       <div className="flex items-center text-md text-black">
         {props.icon}
         <span className="ml-2">{props.title}</span>

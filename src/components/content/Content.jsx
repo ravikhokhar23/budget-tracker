@@ -1,4 +1,5 @@
 import Actions from "./Actions";
+import IncomeExpenseButton from "./IncomeExpenseButton";
 import IncomeExpenseCard from "./IncomeExpenseCard";
 import Welcome from "./Welcome";
 
@@ -8,6 +9,7 @@ const Content = () => {
       <Welcome />
       <Actions />
       <IncomeExpenseCard />
+      <IncomeExpenseButton />
     </main>
   );
 };
