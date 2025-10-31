@@ -1,6 +1,7 @@
 import Actions from "./Actions";
 import IncomeExpenseButton from "./IncomeExpenseButton";
 import IncomeExpenseCard from "./IncomeExpenseCard";
+import TransactionsCashflow from "./TransactionsCashflow";
 import Welcome from "./Welcome";
 
 const Content = () => {
@@ -10,6 +11,7 @@ const Content = () => {
       <Actions />
       <IncomeExpenseCard />
       <IncomeExpenseButton />
+      <TransactionsCashflow />
     </main>
   );
 };
