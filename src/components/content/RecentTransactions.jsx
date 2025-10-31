@@ -7,7 +7,7 @@ import { MdOutlineMovieFilter } from "react-icons/md";
 
 const RecentTransactions = () => {
   return (
-    <div className="flex-1 flex-col h-155 border-2 border-gray-200 rounded-md px-8 py-3">
+    <div className="flex-1 flex-col h-155 border-2 border-gray-200 rounded-lg px-8 py-3">
       <div className="flex justify-between">
         <h1 className="font-medium text-xl">
           Recent <br />
