@@ -6,7 +6,7 @@ import Welcome from "./Welcome";
 
 const Content = () => {
   return (
-    <main className="px-32 w-full h-screen">
+    <main className="px-40 w-full h-screen">
       <Welcome />
       <Actions />
       <IncomeExpenseCard />

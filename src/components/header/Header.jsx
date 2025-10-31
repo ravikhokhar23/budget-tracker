@@ -4,7 +4,7 @@ import Tabs from "./Tabs";
 
 const Header = () => {
   return (
-    <div className="flex px-32 py-3 justify-between items-center border-b-2 border-b-gray-200">
+    <div className="flex px-40 py-3 justify-between items-center border-b-2 border-b-gray-200">
       <Logo />
       <Tabs />
       <Profile />
