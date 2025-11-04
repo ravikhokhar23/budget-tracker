@@ -6,7 +6,7 @@ import { VscCreditCard } from "react-icons/vsc";
 
 const IncomeExpenseCard = () => {
   return (
-    <div className="flex justify-between py-10 gap-6">
+    <div className="flex justify-between py-10 gap-6 font-(family-name:--font-nunito)">
       <Card
         title={"Total Income"}
         icon={<TfiWallet />}
@@ -47,7 +47,9 @@ const Card = (props) => {
         <span className="ml-2">{props.title}</span>
       </div>
       <div className="flex items-end mt-3 p-0">
-        <span className="leading-7 font-bold text-4xl ">{props.amount}</span>
+        <span className="leading-7 font-extrabold text-4xl ">
+          {props.amount}
+        </span>
         <span className={`text-xs ${props.monthTextColor} ml-3`}>
           {props.monthText}
         </span>

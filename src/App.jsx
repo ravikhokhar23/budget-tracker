@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="font-(family-name:--font-nunito) ">
       <Header />
       <Content />
       <Footer />

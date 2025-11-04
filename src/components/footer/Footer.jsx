@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Footer = () => {
   return (
-    <div className="mt-10 mb-5 px-40 py-12 border-t-2 border-t-gray-200 ">
+    <div className="mt-10 mb-5 px-40 py-12 border-t-2 border-t-gray-200 flex flex-col font-medium">
       <div className="flex justify-between pb-10 border-b-2 border-b-gray-200">
         <Overview />
 
@@ -28,6 +28,7 @@ const Footer = () => {
           ]}
         />
       </div>
+      <Copyright />
     </div>
   );
 };
@@ -62,6 +63,19 @@ const ListItem = (props) => {
       <span className="pr-2">•</span>
       {props.text}
     </li>
+  );
+};
+
+const Copyright = () => {
+  return (
+    <div className="flex mt-8 text-gray-500 text-sm justify-between">
+      <p>© 2025 BudgetTracker. All rights reserved.</p>
+      <div className="flex">
+        <span className="pl-3">Privacy</span>
+        <span className="pl-5">Terms</span>
+        <span className="pl-5">Cookies</span>
+      </div>
+    </div>
   );
 };
 
