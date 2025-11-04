@@ -37,7 +37,7 @@ const Overview = () => {
   return (
     <div className="flex-1 flex flex-col">
       <h2 className="text-blue-500 text-xl font-medium">BudgetTracker</h2>
-      <p className="text-sm pt-4 text-gray-600">
+      <p className="text-md pt-4 text-gray-600">
         Take control of your finances with smart budgeting and expense tracking
       </p>
     </div>
@@ -47,8 +47,8 @@ const Overview = () => {
 const Items = (props) => {
   return (
     <div className="flex-1 flex flex-col">
-      <h1 className="font-bold text-sm ml-18">{props.title}</h1>
-      <ul className="ml-18 pt-4">
+      <h1 className="font-bold text-md ml-18">{props.title}</h1>
+      <ul className="ml-18 pt-4 text-md">
         {props.listItems.map((item, index) => (
           <ListItem text={item} key={index} />
         ))}
@@ -68,7 +68,7 @@ const ListItem = (props) => {
 
 const Copyright = () => {
   return (
-    <div className="flex mt-8 text-gray-500 text-sm justify-between">
+    <div className="flex mt-8 text-gray-500 text-md justify-between">
       <p>© 2025 BudgetTracker. All rights reserved.</p>
       <div className="flex">
         <span className="pl-3">Privacy</span>
